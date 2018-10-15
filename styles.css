@@ -45,11 +45,32 @@ h2 {
   text-align:center;
 }
 
-p {
+#paraUtah {
   font-family: cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-stretch:expanded;
-  color: black;
+  color: purple;
+}
+
+#paraColorado {
+  font-family: cursive;
+  font-size: 40px;
+  font-stretch:expanded;
+  color: orange;
+}
+
+#paraCal {
+  font-family: cursive;
+  font-size: 40px;
+  font-stretch:expanded;
+  color: blue;
+}
+
+#paraNev {
+  font-family: cursive;
+  font-size: 40px;
+  font-stretch:expanded;
+  color: green;
 }
 
 h3 {
@@ -67,18 +88,22 @@ li {
   padding-top: 20px;
 }
 
-.purple {
-  color: "purple";
+.rotate90 {
+  transform: rotate(90deg);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.green{
+.rotateneg90{
+  transform: rotate(-90deg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.green {
   color: "green";
 }
 
-.orange {
-  color: "orange";
-}
-
-.blue {
+#blue {
   color: "blue";
 }
